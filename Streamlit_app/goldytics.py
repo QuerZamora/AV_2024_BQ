@@ -99,13 +99,23 @@ def main():
         <div class="container">
             <div class="post-it">
                 <h3>💰 Gold prices and trends</h3>
-                <p>Explore the data and analysis of Dash 1 here. Dive deeper into the datasets and their implications.</p>
-                <a href="/gold_prices_and_economic_trends" style="text-decoration: none; color: #6B8E23;">Explore Now</a>
+                <p>Explore the data and analysis of Gold trends.</p>
+                <a href="/gold_trends" style="text-decoration: none; color: #6B8E23;">Explore Now</a>
             </div>
             <div class="post-it">
-                <h3>💸 Dash 2</h3>
-                <p>Discover the analysis and insights provided by Dash 2. Explore further visualizations and results.</p>
-                <a href="/dash2" style="text-decoration: none; color: #6B8E23;">Explore Now</a>
+                <h3>📉 Index S&P 500</h3>
+                <p>Analyze the S&P 500 index data and its impact on gold prices.</p>
+                <a href="/indep_sp500" style="text-decoration: none; color: #6B8E23;">Explore Now</a>
+            </div>
+            <div class="post-it">
+                <h3>🪙 Metals historic</h3>
+                <p>An historic analysis of diferent metal prices from past years. Take a look!</p>
+                <a href="/metals_historic" style="text-decoration: none; color: #6B8E23;">Explore Now</a>
+            </div>
+            <div class="post-it">
+                <h3>💸 Understanding Correlations</h3>
+                <p>Discover the analysis and insights provided by correlations in the dataset. Explore the results.</p>
+                <a href="/correlations" style="text-decoration: none; color: #6B8E23;">Explore Now</a>
             </div>
             <div class="post-it">
                 <h3>📊 Data Exploration</h3>

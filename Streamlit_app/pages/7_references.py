@@ -36,7 +36,16 @@ def main():
                 In the following link it can be found the Tableau Profile where the workbook and the dashboards are published.
                 </p>
                 <p style="font-size: 18px; color: #6B8E23; text-align: left;">
-                Access the reference here: <a href="https://example.com/your-reference-link" target="_blank" style="color: #FF6347; font-weight: bold;">Tableau Profile</a>
+                Access the reference here: <a href="https://public.tableau.com/app/profile/queralt.zamora/vizzes" target="_blank" style="color: #FF6347; font-weight: bold;">Tableau Profile</a>
+                </p>
+            </div>
+            <div class="post-it" style="background-color: #E6F9A4; padding: 20px; border-radius: 8px; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); width: 100%; margin-bottom: 20px;">
+                <h3 style="color: #9ACD32;">📊 S&P 500 Analysis Notebook</h3>
+                <p style="font-size: 18px; color: #6B8E23; text-align: left;">
+                A really interesting S&P 500 notebook analysis was used for one of the pages of this web. It can be found in the following link!
+                </p>
+                <p style="font-size: 18px; color: #6B8E23; text-align: left;">
+                Access the reference here: <a href="https://www.kaggle.com/code/a3amat02/gold-s-p-dynamics-breakdown-and-forecasting" target="_blank" style="color: #FF6347; font-weight: bold;">S%P500 Notebook</a>
                 </p>
             </div>
         </div>
@@ -45,3 +54,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

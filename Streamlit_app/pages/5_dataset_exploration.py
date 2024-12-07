@@ -23,6 +23,35 @@ def main():
     </p>
     """, unsafe_allow_html=True)
 
+    # Data description
+    st.markdown("""
+        **1. Gold prices and volume:**
+        - gold_open: Opening price of gold for the trading day
+        - gold_high: Highest price of gold during the trading day
+        - gold_low: Lowest price of gold during the trading day
+        - gold_close: Closing price of gold during the trading day. Used in trend analysis and modeling.
+        - gold_volume: Volume of gold traded, reflecting market activity and liquidity
+
+        **2. Other precious metals and energy commodities:**
+        - silver_close
+        - platinum_close
+        - palladium_close
+        - oil_close
+
+        **3. Financial market indices:**
+        - sp500 close: Closing value of the S&P 500 Index, representing the performance of 500 large-cap US companies
+        - nasdaq_close: Closing value of the NASDAQ Index, dominated by technology companies
+
+        **4. Currency exchange rates**
+        - usd_chf: Exchange rate between USD and CHF
+        - eur_usd: Exchange rate between EUR and USD
+
+        **5. Economic indicators:**
+        - CPI: Consumer Price Index. Indicator of inflation
+        - GDP: Gross Domestic Product. Indicating economic health and growth
+        - us_rates_%: Federal funds rate or other key interest rates in the United States, expressed as a percentage
+    """)
+
     # Dataset information
     st.markdown("<h2 style='color: #6B8E23;'>General Overview</h2>", unsafe_allow_html=True)
     st.write("**Dataset dimensions:**", df.shape)
