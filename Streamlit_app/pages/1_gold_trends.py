@@ -1,10 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-# Título de la app
-
-
-# Código HTML proporcionado (incluso el script de Tableau)
+# script de Tableau
 tableau_embed_code = """
 <div class='tableauPlaceholder' id='viz1733510408433' style='position: relative'>
     <noscript>

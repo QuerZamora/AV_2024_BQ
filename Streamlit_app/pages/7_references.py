@@ -3,11 +3,9 @@ import streamlit as st
 def main():
     st.set_page_config(page_title="References", layout="wide")
 
-    # Title and explanation
     st.markdown("<h1 style='text-align: center; color: #9ACD32;'>References</h1>", unsafe_allow_html=True)
     st.markdown("<h2 style='text-align: center; color: #6B8E23;'>Sources and Data Used in Goldytics</h2>", unsafe_allow_html=True)
 
-    # Explanation about the dataset and sources
     st.markdown(
         """
         <p style="font-size: 20px; color: #000000;">
@@ -17,7 +15,6 @@ def main():
         """, unsafe_allow_html=True
     )
 
-    # Section for post-its with references stacked one under the other
     st.markdown(
         """
         <div class="container" style="display: block; margin-top: 20px;">

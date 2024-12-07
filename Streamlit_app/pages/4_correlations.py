@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-# Nuevo código HTML proporcionado para Tableau
+# HTML para Tableau
 new_tableau_embed_code = """
 <div class='tableauPlaceholder' id='viz1733593298423' style='position: relative'>
     <noscript>
@@ -44,5 +44,4 @@ new_tableau_embed_code = """
 </script>
 """
 
-# Incrustar el código de Tableau dentro de la app de Streamlit
 components.html(new_tableau_embed_code, height=800)

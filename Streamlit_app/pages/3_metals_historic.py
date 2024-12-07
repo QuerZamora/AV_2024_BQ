@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Assuming the dataset is already loaded into a CSV file
-data_path = "../final_dataset.csv"  # Update with your dataset's file path
+data_path = "../final_dataset.csv"  
 
 def load_data():
     """Load dataset from a CSV file."""
@@ -42,7 +41,7 @@ def plot_filtered_data(df, metal, year):
 def main():
     st.set_page_config(page_title="Metals Analysis", layout="wide")
 
-    # Apply custom styles
+    # custom styles
     st.markdown(
         """
         <style>
@@ -69,16 +68,12 @@ def main():
 
     st.markdown("<h1 style='text-align: center; color: #9ACD32;'>Metals Analysis</h1>", unsafe_allow_html=True)
 
-
-    # Load dataset
     df = load_data()
-    df['date'] = pd.to_datetime(df['date'])  # Ensure date column is datetime type
+    df['date'] = pd.to_datetime(df['date'])  
 
-    # Plot section: Historical plot of all close values
     st.subheader("Historical Prices of Metals")
     plot_historical_closing_prices(df)
 
-    # Filter section
     st.subheader("Filter Data by Metal and Year")
     metals = ['Silver', 'Platinum', 'Palladium', 'Gold']
     years = sorted(df['year'].unique())
